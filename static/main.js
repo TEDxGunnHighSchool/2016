@@ -1,5 +1,10 @@
 // Controller for HTML5 imports
-var headerContent = document.querySelector('#headerTemplate').import.querySelector('header');
-var footerContent = document.querySelector('#footerTemplate').import.querySelector('footer');
-$("body").prepend(headerContent);
-$("body").append(footerContent);
+
+// x-browser way of doing imports
+var head = $.get("../head.html", function (data) {
+    $("body").prepend(data);
+});
+
+var foot = $.get("../foot.html", function (data) {
+  $("body").append(data);
+});
