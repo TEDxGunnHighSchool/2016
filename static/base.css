@@ -41,10 +41,12 @@ ul.nav {
   margin: 0;
 }
 ul.nav li {
-  display: inline;
-  height: 40px;
+  display: inline!important;
+  vertical-align: none!important;
+  zoom: none;
+  height: 40px!important;
   line-height: 40px;
-  padding: 10px;
+  padding: 10px!important;
   border-radius: 4px;
 }
 ul.nav li:hover {
