@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,700);
 body {
-  font-family: "Open Sans", "Helvetica", sans-serif;
+  font-family: "Helvetica", "Open Sans", sans-serif;
   font-weight: 300;
   margin: 0;
   padding: 0;
@@ -182,6 +182,23 @@ img.award:last-of-type {
   height: 180px;
   width: 180px;
   border-radius: 50%;
+}
+button {
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+}
+button:hover {
+  filter:brightness(80%);
+  -webkit-filter:brightness(80%);
+}
+button:focus {
+  outline:none;
+}
+button:active {
+  filter:brightness(60%);
+  -webkit-filter:brightness(60%);
 }
 
 @media only screen and (max-width:650px) {
