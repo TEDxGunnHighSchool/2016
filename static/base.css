@@ -211,3 +211,16 @@ button:active {
   }
 
 }
+
+red {
+  color:red;
+  font-weight:bold;
+}
+
+.speakerLineup {
+  line-height: 130%;
+}
+
+hr {
+
+}
